@@ -109,19 +109,41 @@ a:hover                        { text-decoration:none; }
 	margin-right: 15px;
 	outline: 2px solid #f00;
 }
-	.about-me {
+	.description {
 		float: left;
 		width: 620px;
 		margin: 10px 0 20px;
 		font-size: 17px;
 	}
-		.about-me:after {
+		.description p:after {
 			content: '';
 			display: block;
 			width: 600px;
 			margin-top: 20px;
 			border-bottom: 1px solid #ddd;
 		}
+		.list-mark {
+			overflow: hidden;
+		}
+			.list-mark li {
+				float: left;
+				margin-right: 10px;
+				color: #40BB0B;
+			}
+				.list-mark li:before {
+					content: '#';
+					display: inline;
+					font-size: 12px;
+				}
+				.list-mark li:after {
+					content: ',';
+					display: inline;
+					font-size: 12px;
+				}
+				.list-mark a {
+					text-decoration: none;
+					color: #40BB0B;
+				}
 	.my-foto {
 		float: right;
 		width: 180px;
