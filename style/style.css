@@ -64,6 +64,7 @@ a:hover                        { text-decoration:none; }
 	background: #fff;
 }
 .inner-wrap {
+	overflow: hidden;
 	margin: 65px 20px 20px;
 }
 /*----------------------------------------------------------------------------------*/
@@ -100,6 +101,23 @@ a:hover                        { text-decoration:none; }
 				.main-navigation a:hover {
 					color: #999;
 				}
+	.btn-login {
+		position: absolute;
+		right: 20px;
+		top: 10px;
+		color: #fff;
+		font: bold 14px 'PT Sans', sans-serif;
+		background: none;
+		border: none;
+
+		-webkit-transition: all .3s;
+		-moz-transition: all .3s;
+		-o-transition: all .3s;
+		transition: all .3s;
+	}
+	.btn-login:hover {
+		color: #999;
+	}
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------CONTENT--------------------------------------*/
 /*----------------------------------------------------------------------------------*/
@@ -157,9 +175,11 @@ a:hover                        { text-decoration:none; }
 	float: left;
 	width: 665px;
 	margin-right: 15px;
-	outline: 2px solid #f00;
 }
-	.list-post {}
+	.list-post {
+		overflow: hidden;
+		margin-bottom: 15px;
+	}
 		.list-post li {
 			margin-bottom: 25px;
 			padding-top: 30px;
@@ -173,13 +193,23 @@ a:hover                        { text-decoration:none; }
 				display: inline-block;
 				text-decoration: none;
 			}
+				.list-post h2:hover {
+					color: #B34EE9;
+				}
 				.list-post h2 {
 					display: inline-block;
+					margin-bottom: 10px;
 					font-size: 20px;
 					color: #00AEEC;
+
+					-webkit-transition: all .3s;
+					-moz-transition: all .3s;
+					-o-transition: all .3s;
+					transition: all .3s;
 				}
 			.date {
 				display: block;
+				margin-bottom: 5px;
 				color: #C7C7C7;
 				font-size: 12px;
 			}
@@ -190,6 +220,9 @@ a:hover                        { text-decoration:none; }
 			.img-post img {
 				display: block;
 				width: 100%;
+			}
+			.list-post p {
+				margin: 10px 0;
 			}
 	.wrap-pagination {
 		text-align: center;
@@ -218,6 +251,10 @@ a:hover                        { text-decoration:none; }
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
+	.btn-subscription {
+		border: none;
+		background: none;
+	}
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------FOOTER---------------------------------------*/
 /*----------------------------------------------------------------------------------*/
