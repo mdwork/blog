@@ -11,93 +11,91 @@
 </head>
 
 <body class="home">
+    <header class="main-header" role="banner">
+        <span class="wrap-logo"></span>
+
+        <nav class="main-navigation">
+            <ul role="navigation">
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Статьи</a></li>
+                <li><a href="#">Портфолио</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+
+        <button class="btn-login">Вход</button>
+    </header>
+
     <div class="wrapper">
-        <header class="main-header" role="banner">
-            <span class="wrap-logo"></span>
+        <div class="inner-wrap">
+            <section class="overflow">
+                <h1>Разработка сайтов</h1>
 
-            <nav class="main-navigation">
-                <ul role="navigation">
-                    <li><a href="#">Главная</a></li>
-                    <li><a href="#">Статьи</a></li>
-                    <li><a href="#">Портфолио</a></li>
-                    <li><a href="#">Контакты</a></li>
-                </ul>
-            </nav>
+                <div class="description">
+                    <p>Всем привет! Меня зовут Евгений (Zhe1ka) Дзецина, и сегодня я начинаю вести свой блог.
+                        Темы, которые я планирую охватывать, будут касаться <strong>front-end</strong> разработки сайтов, но и, возможно,
+                        будет что-то ещё интересное.</p>
 
-            <button class="btn-login">Вход</button>
-        </header>
-
-        <div class="wrap-content">
-            <div class="inner-wrap">
-                <section class="overflow">
-                    <h1>Разработка сайтов</h1>
-
-                    <div class="description">
-                        <p>Всем привет! Меня зовут Евгений (Zhe1ka) Дзецина, и сегодня я начинаю вести свой блог.
-                            Темы, которые я планирую охватывать, будут касаться <strong>front-end</strong> разработки сайтов, но и, возможно,
-                            будет что-то ещё интересное.</p>
-
-                        <ul class="list-mark">
-                            <li><a href="#">html</a></li>
-                            <li><a href="#">css</a></li>
-                            <li><a href="#">javaScript</a></li>
-                            <li><a href="#">jQuery</a></li>
-                            <li><a href="#">angular</a></li>
-                        </ul>
-                    </div>
-
-                    <img src="images/me.jpg" class="my-foto" alt="Дзецина Евгений">
-                </section>
-
-                <main class="main-content">
-                    <ul class="list-post">
-                        <li>
-                            <article>
-                                <a href="#"><h2>Первая запись</h2></a>
-                                <span class="date">08.01.2015</span>
-                                <a class="img-post" href="#"><img src="images/content/main-foto-car.jpg" alt="foto"></a>
-                                <p>Это моя первая запись!</p>
-                            </article>
-                        </li>
-
-                        <li>
-                            <article>
-                                <a href="#"><h2>Первая запись</h2></a>
-                                <span class="date">08.01.2015</span>
-                                <a class="img-post" href="#"><img src="images/content/main-foto-car.jpg" alt="foto"></a>
-                                <p>Это моя первая запись!</p>
-                            </article>
-                        </li>
+                    <ul class="list-mark">
+                        <li><a href="#">html</a></li>
+                        <li><a href="#">css</a></li>
+                        <li><a href="#">javaScript</a></li>
+                        <li><a href="#">jQuery</a></li>
+                        <li><a href="#">angular</a></li>
                     </ul>
-
-                    <div class="wrap-pagination">
-                        <ul class="page-numbers">
-                            <li><a class="start" href="#"><<</a></li>
-                            <li><a class="prev" href="#">Prev</a></li>
-                            <li><span class="current">1</span></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#">3</a></li>
-                            <li><span class="dots">...</span></li>
-                            <li><a href="#">4</a></li>
-                            <li><a href="#">5</a></li>
-                            <li><a href="#">6</a></li>
-                            <li><a class="next" href="#">Next</a></li>
-                            <li><a class="last" href="#">>></a></li>
-                        </ul>
-                    </div>
-                </main>
-
-                <div class="side-bar">
-                    <button class="btn-subscription">Оформить подписку</button>
                 </div>
+
+                <img src="images/me.jpg" class="my-foto" alt="Дзецина Евгений">
+            </section>
+
+            <main class="main-content">
+                <ul class="list-post">
+                    <li>
+                        <article>
+                            <a href="#"><h2>Первая запись</h2></a>
+                            <span class="date">08.01.2015</span>
+                            <a class="img-post" href="#"><img src="images/content/main-foto-car.jpg" alt="foto"></a>
+                            <p>Это моя первая запись!</p>
+                        </article>
+                    </li>
+
+                    <li>
+                        <article>
+                            <a href="#"><h2>Первая запись</h2></a>
+                            <span class="date">08.01.2015</span>
+                            <a class="img-post" href="#"><img src="images/content/main-foto-car.jpg" alt="foto"></a>
+                            <p>Это моя первая запись!</p>
+                        </article>
+                    </li>
+                </ul>
+
+                <div class="wrap-pagination">
+                    <ul class="page-numbers">
+                        <li><a class="start" href="#"><<</a></li>
+                        <li><a class="prev" href="#">Prev</a></li>
+                        <li><span class="current">1</span></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><span class="dots">...</span></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">6</a></li>
+                        <li><a class="next" href="#">Next</a></li>
+                        <li><a class="last" href="#">>></a></li>
+                    </ul>
+                </div>
+            </main>
+
+            <div class="side-bar">
+                <button class="btn-subscription">Оформить подписку</button>
             </div>
         </div>
     </div>
 
     <div class="wrap-footer">
         <div class="footer">
-            <span class="copyright">© 2015—2015, «2MD»</span>
-            <strong>Евгений Дзецина</strong>
+            <span class="copyright">© 2015 — 2015, «2MD»</span>
+            <strong class="float-r">Евгений Дзецина</strong>
         </div>
     </div>
 
