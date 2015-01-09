@@ -2,7 +2,7 @@
 /*------------------------------RESET DEFAULT STYLES--------------------------------*/
 /*----------------------------------------------------------------------------------*/
 html,body                       { width:100%; height:100%; }
-body                            { padding:0; margin:0; font:12px Helvetica,Arial,sans-serif; background:#F4F4F4; color:#000; }
+body                            { padding:0; margin:0; font:14px Helvetica,Arial,sans-serif; background:#F4F4F4; color:#000; }
 div,menu,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,fieldset,legend,label,select,input,textarea {
 	padding:0;
 	margin:0;
@@ -10,7 +10,7 @@ div,menu,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,
 	list-style:none;
 }
 button                         { cursor: pointer; }
-select, input, textarea        { font-size:12px; vertical-align:middle; }
+select, input, textarea        { font-size:14px; vertical-align:middle; }
 textarea                       { vertical-align:top; }
 :focus                         { outline:none; }
 input[type=submit]             { cursor:pointer; }
@@ -64,7 +64,7 @@ a:hover                        { text-decoration:none; }
 	background: #fff;
 }
 .inner-wrap {
-	margin: 60px 20px 20px;
+	margin: 65px 20px 20px;
 }
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------HEADER---------------------------------------*/
@@ -103,12 +103,10 @@ a:hover                        { text-decoration:none; }
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------CONTENT--------------------------------------*/
 /*----------------------------------------------------------------------------------*/
-.main-content {
-	float: left;
-	width: 665px;
-	margin-right: 15px;
-	outline: 2px solid #f00;
-}
+	.home h1 {
+		font-size: 22px;
+		color: #00AEEC;
+	}
 	.description {
 		float: left;
 		width: 620px;
@@ -140,15 +138,51 @@ a:hover                        { text-decoration:none; }
 					display: inline;
 					font-size: 12px;
 				}
+				.list-mark li:last-child:after {
+					display: none;
+				}
 				.list-mark a {
 					text-decoration: none;
 					color: #40BB0B;
+				}
+				.list-mark a:hover {
+					color: #30A000;
 				}
 	.my-foto {
 		float: right;
 		width: 180px;
 		margin: 0 20px 20px 0;
 	}
+.main-content {
+	float: left;
+	width: 665px;
+	margin-right: 15px;
+	outline: 2px solid #f00;
+}
+	.list-post {}
+		.list-post li {
+			margin-bottom: 30px;
+			padding-top: 30px;
+			border-top: 1px solid #ddd;
+		}
+		.list-post li:first-child {
+			padding-top: 0;
+			border: none;
+		}
+			.list-post a {
+				text-decoration: none;
+			}
+				.list-post h2 {
+					font-size: 20px;
+					color: #00AEEC;
+				}
+			.date {
+				color: #C7C7C7;
+				font-size: 12px;
+			}
+				.date:before {
+					content: '';
+				}
 .side-bar {
 	float: left;
 	width: 240px;
