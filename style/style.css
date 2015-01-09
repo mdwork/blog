@@ -17,7 +17,7 @@ input[type=submit]             { cursor:pointer; }
 img, fieldset                  { border:0; }
 img                            { vertical-align: top; }
 table                          { border-collapse:collapse; border-spacing:0; }
-a:link, a:visited              { font:12px Helvetica,Arial,sans-serif; color:#000; text-decoration:underline; }
+a:link, a:visited              { font:14px Helvetica,Arial,sans-serif; color:#000; text-decoration:underline; }
 a:hover                        { text-decoration:none; }
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------DEFAULT CLASSES------------------------------*/
@@ -241,9 +241,13 @@ a:hover                        { text-decoration:none; }
 		}
 			.page-numbers li {
 				display: inline-block;
+				margin: 0 2px;
 			}
 				.page-numbers a {
 					text-decoration: none;
+				}
+				.page-numbers a:hover {
+					color: #00AEEC;
 				}
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------SIDEBAR--------------------------------------*/
