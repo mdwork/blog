@@ -89,7 +89,8 @@ a:hover                        { text-decoration:none; }
 				display: inline-block;
 				padding: 12px 20px;
 			}
-				.main-navigation a {
+				.main-navigation a,
+				.main-navigation span {
 					color: #fff;
 					font: bold 13px 'PT Sans', sans-serif;
 					text-transform: uppercase;
@@ -101,8 +102,12 @@ a:hover                        { text-decoration:none; }
 					-o-transition: all .3s;
 					transition: all .3s;
 				}
-				.main-navigation a:hover {
+				.main-navigation a:hover,
+				.main-navigation span {
 					color: #999;
+				}
+				.main-navigation span {
+					cursor: default;
 				}
 	.btn-login {
 		position: absolute;
@@ -124,7 +129,7 @@ a:hover                        { text-decoration:none; }
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------CONTENT--------------------------------------*/
 /*----------------------------------------------------------------------------------*/
-	.home h1 {
+	h1 {
 		font-size: 22px;
 		color: #00AEEC;
 	}
