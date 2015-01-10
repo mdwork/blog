@@ -255,8 +255,7 @@ a:hover                        { text-decoration:none; }
 .side-bar {
 	float: left;
 	width: 240px;
-	height: 100px;
-	padding-left: 10px;
+	padding: 1px 0 15px 10px;
 	border-left: 1px solid #000;
 
 	-moz-box-sizing: border-box;
@@ -264,9 +263,24 @@ a:hover                        { text-decoration:none; }
 	box-sizing: border-box;
 }
 	.btn-subscription {
+		display: block;
+		margin-bottom: 15px;
+		font-size: 18px;
+		font-weight: bold;
 		border: none;
 		background: none;
+		color: #00AEEC;
 	}
+	.wrap-search {
+		display: block;
+	}
+		.btn-text {
+			padding: 2px 5px;
+		}
+		.btn-search {
+			border: none;
+			background: #00BBFF;
+		}
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------FOOTER---------------------------------------*/
 /*----------------------------------------------------------------------------------*/
