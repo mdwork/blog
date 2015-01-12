@@ -123,16 +123,15 @@ a:hover                        { text-decoration:none; }
 	overflow: hidden;
 }
 	h1 {
-		font-size: 22px;
-		color: #00AEEC;
-	}
-	.about-author h1 {
 		display: inline-block;
+		margin-bottom: 10px;
+		font-size: 23px;
+		color: #00AEEC;
 	}
 	.description {
 		float: left;
 		width: 620px;
-		margin: 10px 0 35px;
+		margin-bottom: 35px;
 		font-size: 17px;
 	}
 		.description p:after {
@@ -229,6 +228,12 @@ a:hover                        { text-decoration:none; }
 						-o-transition: all .3s;
 						transition: all .3s;
 					}
+						.list-post img {
+							max-height: 360px;
+						}
+						.main-content img {
+							max-height: 300px;
+						}
 				.date {
 					display: block;
 					margin-bottom: 5px;
@@ -297,10 +302,12 @@ a:hover                        { text-decoration:none; }
 		color: #30A000;
 	}
 	.wrap-search {
+		float: right;
 		display: block;
 		margin-bottom: 15px;
 	}
 	.side-bar .wrap-search {
+		float: none;
 		margin-bottom: 35px;
 	}
 		.form-search {
