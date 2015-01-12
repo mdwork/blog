@@ -108,7 +108,7 @@ a:hover                        { text-decoration:none; }
 		position: absolute;
 		right: 20px;
 		top: 10px;
-		color: #fff;
+		color: #ff0;
 		font: bold 14px 'PT Sans', sans-serif;
 		background: none;
 		border: none;
@@ -180,13 +180,24 @@ a:hover                        { text-decoration:none; }
 	width: 675px;
 }
 	.main-content {
+		position: relative;
 		display: block;
 		padding-right: 25px;
 		border-right: 1px solid #ddd;
 	}
+	.main-content:after {
+		content: '';
+		display: block;
+		position: absolute;
+		top: 0;
+		right: -1px;
+		height: 20px;
+		width: 1px;
+		background: #fff;
+	}
 		.list-post {
 			overflow: hidden;
-			margin-bottom: 15px;
+			margin-bottom: 35px;
 		}
 			.list-post li {
 				margin-bottom: 25px;
@@ -196,6 +207,9 @@ a:hover                        { text-decoration:none; }
 			.list-post li:first-child {
 				padding-top: 0;
 				border: none;
+			}
+			.list-post li:last-child {
+				margin-bottom: 0;
 			}
 				.list-post a {
 					display: inline-block;
@@ -253,14 +267,17 @@ a:hover                        { text-decoration:none; }
 					.page-numbers span {
 						cursor: default;
 					}
+					.page-numbers .current {
+						font-weight: bold;
+					}
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------SIDEBAR--------------------------------------*/
 /*----------------------------------------------------------------------------------*/
 .side-bar {
 	float: left;
 	width: 235px;
-	margin: 10px 0 0 -1px;
-	padding: 20px 0 35px 15px;
+	margin: 20px 0 0 -1px;
+	padding: 10px 0 35px 15px;
 	border-left: 1px solid #ddd;
 
 	-moz-box-sizing: border-box;
