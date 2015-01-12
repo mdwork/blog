@@ -23,13 +23,15 @@
             </ul>
         </nav>
 
-        <button class="btn-login">Вход</button>
+        <button class="btn-login trs">Вход</button>
     </header>
 
     <div class="wrapper">
         <div class="inner-wrap">
-            <section class="overflow">
+            <section class="about-author">
                 <h1>Разработка сайтов</h1>
+
+                <img src="images/me.jpg" class="my-foto" alt="Дзецина Евгений">
 
                 <div class="description">
                     <p>Всем привет! Меня зовут Евгений (Zhe1ka) Дзецина, и сегодня я начинаю вести свой блог.
@@ -44,30 +46,30 @@
                         <li><a href="#">angular</a></li>
                     </ul>
                 </div>
-
-                <img src="images/me.jpg" class="my-foto" alt="Дзецина Евгений">
             </section>
 
-            <main class="main-content">
-                <ul class="list-post">
-                    <li>
-                        <article>
-                            <a href="#"><h2>Первая запись</h2></a>
-                            <span class="date">08.01.2015</span>
-                            <a class="img-post" href="#"><img src="images/content/main-foto-car.jpg" alt="foto"></a>
-                            <p>Это моя первая запись!</p>
-                        </article>
-                    </li>
+            <div class="wrap-content">
+                <main class="main-content">
+                    <ul class="list-post">
+                        <li>
+                            <article>
+                                <a href="#"><h2>Первая запись</h2></a>
+                                <span class="date">08.01.2015</span>
+                                <a class="img-post" href="#"><img src="images/content/main-foto-car.jpg" alt="foto"></a>
+                                <p>Это моя первая запись!</p>
+                            </article>
+                        </li>
 
-                    <li>
-                        <article>
-                            <a href="#"><h2>Первая запись</h2></a>
-                            <span class="date">08.01.2015</span>
-                            <a class="img-post" href="#"><img src="images/content/main-foto-car.jpg" alt="foto"></a>
-                            <p>Это моя первая запись!</p>
-                        </article>
-                    </li>
-                </ul>
+                        <li>
+                            <article>
+                                <a href="#"><h2>Первая запись</h2></a>
+                                <span class="date">08.01.2015</span>
+                                <a class="img-post" href="#"><img src="images/content/main-foto-car.jpg" alt="foto"></a>
+                                <p>Это моя первая запись!</p>
+                            </article>
+                        </li>
+                    </ul>
+                </main>
 
                 <div class="wrap-pagination">
                     <ul class="page-numbers">
@@ -84,15 +86,19 @@
                         <li><a class="last" href="#">>></a></li>
                     </ul>
                 </div>
-            </main>
+            </div><!--end WRAp-CONTENT-->
 
             <div class="side-bar">
-                <button class="btn-subscription">Оформить подписку</button>
-
                 <span class="wrap-search">
                     <b>Поиск по сайту:</b>
-                    <input class="btn-text" type="text">
-                    <button class="btn-search" type="submit">Поиск</button>
+                    <form class="form-search">
+                        <input class="btn-text" type="text">
+                        <button class="btn-search trs" type="submit">Поиск</button>
+                    </form>
+                </span>
+
+                <span class="align-c display">
+                    <button class="btn-subscription trs"><Оформить подписку /></button>
                 </span>
             </div>
         </div>
