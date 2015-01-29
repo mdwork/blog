@@ -134,6 +134,9 @@ a:hover                        { text-decoration:none; }
 		margin-bottom: 35px;
 		font-size: 17px;
 	}
+    .inner-article .description {
+        margin-bottom: 0;
+    }
 		.description p:after {
 			content: '';
 			display: block;
@@ -194,6 +197,15 @@ a:hover                        { text-decoration:none; }
 		width: 1px;
 		background: #fff;
 	}
+        .main-inner-content p {
+            margin-bottom: 25px;
+        }
+        .main-inner-content img {
+            margin: 30px 0;
+        }
+        .main-inner-content img:first-child {
+            margin-top: 0;
+        }
 		.list-post {
 			overflow: hidden;
 			margin-bottom: 35px;
@@ -247,6 +259,7 @@ a:hover                        { text-decoration:none; }
 				.img-post img {
 					display: block;
 					width: 100%;
+                    margin: 0;
 				}
 				.list-post p {
 					margin: 10px 0;
